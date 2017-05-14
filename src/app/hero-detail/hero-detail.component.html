@@ -1,0 +1,9 @@
+<div *ngIf="passingHeroVO" class="floatLeft">
+  <h2>{{passingHeroVO.name}} details!</h2>
+  <div><label>id: </label>{{passingHeroVO.id}}</div>
+  <div>
+      <label>name: </label>
+      <input [(ngModel)]="passingHeroVO.name" placeholder="name"/>
+  </div>
+  <button (click)="goBack()">Back</button>
+</div>

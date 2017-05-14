@@ -1,0 +1,9 @@
+import 'rxjs/add/operator/switchMap';
+import 'rxjs/add/operator/toPromise';
+[ngClass]={class1:attr1;class2:attr2}
+<input type="text" #textname (keyup)='0'/>
+<child-component [nameinput]='textname.value'></child-component>
+Input Output
+https://www.youtube.com/watch?v=9vnaphWPVRk
+service
+https://www.youtube.com/watch?v=DffDsJsMJh4
