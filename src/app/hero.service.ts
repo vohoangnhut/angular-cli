@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { heroVO } from './heroVO';
-import { lstHeroVO } from './mock-heroes';
 import { Headers, Http } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/toPromise';
